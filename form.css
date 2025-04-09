@@ -1,0 +1,120 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414;
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #141414;
+}
+
+.logo {
+    width: 150px;
+}
+
+/* Main Login Section */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://assets.nflxext.com/ffe/siteui/vlv3/6fa18949-1cd5-4c8b-a86e-6e4c4b11bc6c.jpg') center center/cover no-repeat;
+}
+
+.login-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 40px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-form h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.input-field {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #333;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: #e50914;
+}
+
+.sign-in-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #e50914;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sign-in-btn:hover {
+    background-color: #f40612;
+}
+
+.remember-container {
+    margin: 15px 0;
+    text-align: left;
+}
+
+.remember-container input {
+    margin-right: 10px;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #757575;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.signup-prompt {
+    margin-top: 20px;
+    color: #757575;
+}
+
+.signup-prompt a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+.signup-prompt a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: #141414;
+    padding: 20px;
+    text-align: center;
+    color: #777;
+}

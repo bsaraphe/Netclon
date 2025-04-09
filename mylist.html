@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Netflix List</title>
+  <link rel="stylesheet" href="mylist.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>My Netflix List</h1>
+    </header>
+    <main>
+      <section class="movie-list">
+        <div class="movie" data-id="1">
+          <img src="movie1.jpg" alt="Movie 1">
+          <button class="add-to-list">Add to My List</button>
+        </div>
+        <div class="movie" data-id="2">
+          <img src="movie2.jpg" alt="Movie 2">
+          <button class="add-to-list">Add to My List</button>
+        </div>
+        <!-- Add more movie items as needed -->
+      </section>
+      <section class="my-list">
+        <h2>My List</h2>
+        <div class="list-container">
+          <!-- Dynamically added movies will appear here -->
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
